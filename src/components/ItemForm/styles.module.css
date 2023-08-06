@@ -1,0 +1,52 @@
+.containerForm {
+  display: grid;
+  place-content: center;
+  margin-top: 2rem;
+  
+
+}
+
+.formItem label {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+
+.row1 {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+}
+.row2 {
+  margin-bottom: 1rem;
+}
+
+.row1 input,
+.row2 textarea,
+.row1 select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  
+}
+.row2 textarea {
+  width: 100%;
+  resize: none;
+}
+
+
+
+
+
+
+
+

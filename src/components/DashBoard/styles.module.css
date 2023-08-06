@@ -1,0 +1,61 @@
+.title{
+  font-weight: lighter;
+  font-size: 2.5rem;
+}
+
+.container{
+  display: grid;
+  grid-template-areas:"col1 col2" ;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+
+.col1{
+  grid-area: col1;
+  display: grid;
+  grid-template-areas: "card1 card2" "table1 table1";
+  gap: 2rem;
+  
+}
+
+.col2{
+  grid-area: col2;
+  display: grid;
+  grid-template-areas: "card3 card4" "table2 table2";
+  gap: 2rem;
+  
+}
+
+.card1{
+  grid-area: card1;
+}
+
+.card2{
+  grid-area: card2;
+}
+
+.card3{
+  grid-area: card4;
+}
+
+.card4{
+  grid-area: card3;
+}
+
+.table1{
+  grid-area: table1;
+}
+.table2{
+  grid-area: table2;
+}
+
+@media(max-width:884px){
+  .container{
+    
+    grid-template-areas:"col1" "col2" ;
+    
+  }
+}
+
+

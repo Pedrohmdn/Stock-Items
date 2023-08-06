@@ -1,0 +1,16 @@
+.tableAllItems {
+  width: 100%;
+}
+
+
+.container::-webkit-scrollbar{
+  height: 5px;
+}
+@media(max-width: 864px){
+  .container{
+    overflow-x: scroll;
+  }
+  
+  
+  
+}

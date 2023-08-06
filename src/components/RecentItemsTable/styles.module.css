@@ -1,0 +1,20 @@
+.container{
+  height: 20rem;
+  overflow-y: scroll;
+}
+
+.tableRecentItems{
+  width: 100%;
+}
+
+.container::-webkit-scrollbar{
+  background-color: transparent;
+  width: 5px;
+ 
+}
+.container::-webkit-scrollbar-thumb{
+  background-color: #FEFEFE;
+  border-radius: 1rem;
+
+}
+

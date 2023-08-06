@@ -1,0 +1,21 @@
+.container{
+  height: 20rem;
+  overflow-y: scroll;
+}
+
+.tableItemsRunningOut{
+  width: 100%;
+}
+
+.container::-webkit-scrollbar{
+  background-color: transparent;
+  width: 5px;
+  
+  
+  
+}
+.container::-webkit-scrollbar-thumb{
+  background-color: #FEFEFE;
+  border-radius: 1rem;
+
+}
