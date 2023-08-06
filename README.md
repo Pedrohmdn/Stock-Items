@@ -1,2 +1,3 @@
 # Stock-Items
-Gestor de Estoque
+Inventory Manager<hr>
+hosted project: <https://gestor-de-estoque.vercel.app/>
